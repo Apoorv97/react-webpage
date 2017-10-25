@@ -1,0 +1,505 @@
+body {
+    background-color: #f7f8f7;
+}
+
+section {
+    padding-bottom: 35px;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.0) !important;
+    border: 0px;
+}
+
+.navbar-brand {
+    color: #ef824c !important;
+   font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+   display: inline-flex;
+}
+
+.navbar-header button {
+    color: #ef824c !important;
+    border: 1px solid #ef824c !important;
+}
+
+nav ul {
+     margin-top: 0 !important;
+     margin-bottom: 0 !important;
+}
+
+.navbar-brand {
+    padding: 8px 15px;
+}
+
+.navbar .navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #999;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.navbar-custom:not(.navbar-inverse) .navbar-nav li a:hover {
+    color: #ececec;
+}
+
+.navbar .navbar-nav .active a {
+    background: none;
+    color: #ef824c;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.shrink  li a:hover {
+    color: #111 !important;
+}
+
+#logo {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+#logo img {
+    width: 30px;
+    height: 31px;
+}
+
+#logo-caption .name {
+    color: #ececec;
+    font-weight: 600;
+    font-size: 17px;
+    padding-bottom: 0px;
+    letter-spacing: -1px;
+}
+
+#logo-caption .legend {
+    color: #ececec;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-top: -3px;
+}
+
+.shrink .name {
+    color: #373737 !important;
+}
+
+.shrink .legend {
+    color: #373737 !important;
+}
+
+.bg-orange {
+    background-color: #ffa0e0;
+    height: 600px;
+}
+
+#welcome {
+    background-image: url(https://neitofcc.github.io/portfolio/img/header-bg.png);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.shrink {
+    background-color: #fff !important;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.vcenter {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%,-50%);
+}
+
+ul {
+     list-style: none outside none;
+     margin-top: 10% !important;
+     margin-bottom: 10% !important;
+ }
+
+.main-header h3 {
+    font-weight: 300;
+    font-size: 1.05em;
+    letter-spacing: 3px;
+    color: #a0a0a0;
+}
+
+.main-header h1 {
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: 15px;
+    color: #ececec;
+}
+
+.main-header .quote {
+    font-size:1.5em;
+    font-weight: 300;
+    line-spacing: 2px;
+    color: #a0a0a0;
+}
+
+.btn-light {
+    color: #111;
+    background: #ececec;
+}
+
+.btn-light:visited {
+    color: #111;
+    background: #ececec;
+}
+
+.btn-sm {
+    padding: 6px 33px;
+    letter-spacing: 3px;
+}
+
+.scroller {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    width: 120px;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(235, 235, 235, 0.5);
+}
+
+.scroller a { color: #dadada; }
+.scroller a:active { color: #dadada; }
+.scroller a:visited { color: #dadada; }
+.scroller a:hover { color: #dadada; text-decoration: none; }
+
+.see-more {
+    opacity: 0.0;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    color: #ececec;
+    letter-spacing: 2.5px;
+    letter-spacing: 2.5px;
+    font-size: 11px;
+}
+
+
+section header {
+    margin-bottom: 80px;
+}
+
+.title {
+    text-transform: uppercase;
+    color: #111;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 2em;
+    margin-top: 5px;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: #999;
+    letter-spacing: 3px;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
+
+section header {
+    margin-top: 40px;
+}
+
+.box-container {
+    text-align: center;
+    padding: 50px 40px;
+    border: 1px solid #f8f8f8;
+    background: #fff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.box-container h4 {
+    margin-bottom: 25px;
+}
+
+
+/************ ABOUT SECTION ************/
+.text-about {
+    font-size: 15px !important;
+    text-transform: uppercase;
+    line-height: 24px !important;
+    letter-spacing: 2px !important;
+}
+
+.about-list {
+    font-size: 14px !important;
+    line-height: 28px !important;
+}
+
+ul.about-list li {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 7px 0;
+}
+
+ul.about-list li span {
+    min-width: 130px;
+    display: inline-block;
+    font-weight: 600 !important;
+}
+
+.avatar {
+    height: 400px;
+}
+.avatar .img-responsive {
+    margin: 0 auto;
+}
+
+/********** Skills **********/
+.bg-white {
+    background-color: #fff;
+}
+
+
+.binary-text {
+    font-size: 2em;
+    font-weight: 500;
+    color: #ef824c !important;
+    padding-right: 20px;
+}
+
+.skill-list {
+     margin-top: 0% !important;
+     margin-bottom: 10% !important;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 28px !important;
+    display: table;
+    text-transform: uppercase;
+}
+
+.skill-list li {
+    padding-bottom: 3%;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.item-list {
+    padding-bottom: 25px;
+}
+
+.separator {
+    margin: 0 auto;
+    background: url(//neitofcc.github.io/portfolio/img/separator.png) no-repeat;
+    height: 9px;
+    width: 576px;
+    padding-bottom: 80px;
+}
+
+/******* PORTFOLIO *********/
+.pf-item {
+    padding-bottom: 40px;
+    border-bottom: 0;
+}
+
+.pf-details {
+    padding: 0 25px;
+}
+
+.pf-details h2 {
+    color: #ef824c !important;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 0px;
+    text-transform: uppercase
+}
+
+.pf-details p {
+    line-height: 26px;
+}
+
+.pf-details ul {
+    padding: 0 !important;
+}
+
+.pf-details li {
+    color: #fff;
+    border-radius: 4px;
+    font-size: 12px;
+    background: #ef824c;
+    padding: 4px 9px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+.bg-gray {
+    background-color: #f0f0f0;
+    min-height: 440px;
+    padding: 60px 40px;
+}
+
+.bg-gray input, .bg-gray textarea {
+    border: 1px solid #dfdfdf;
+    letter-spacing: 1px;
+    font-size: 11px;
+    padding: 8px 15px;
+    width: 100%;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    max-width: 100%;
+    resize: none;
+}
+
+.bg-map {
+    background-color: #ef824c !important;
+    background-image: url(//neitofcc.github.io/portfolio/img/map-image.png);
+    padding: 10% 10% 0 10%;
+    min-height: 440px;
+}
+
+.bg-map ul li {
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 30px;
+    padding: 0 0 0 40px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.bg-map ul li span {
+    position: absolute;
+    font-size: 1.4em;
+    left: 0;
+    top: 0;
+}
+
+.required-fields {
+    font-size: 11px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.submit input {
+    background-color: #000;
+    color: #eee;
+    width: 120px;
+}
+
+.submit input:hover {
+    background-color: #eee !important;
+    color: #000 !important;
+    border-color: #000;
+}
+
+
+.social-links {
+    background-color: #111;
+    font-size: 1.35em;
+}
+
+.social-links ul {
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+    padding: 0;
+}
+
+.social-links ul li {
+    display: inline-block;
+    padding-right: 35px;
+    margin-right: 35px;
+    border-right: 1px solid #777;
+}
+
+.social-links ul li:last-child {
+   border-right: 0;
+   padding-right: 35px;
+   margin-right: 0;
+}
+
+.social-links a {
+    color: #999;
+}
+
+.social-links a:hover {
+    color: #ececec !important;
+}
+
+.social-links a:visited {
+    color: #999;
+}
+
+
+.bg-darkgray {
+    background-color: #252525;
+}
+
+.copyright {
+    padding-top: 3% !important;
+    padding-bottom: 3% !important;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #888888;
+    text-align: center;
+}
+
+.copyright a {
+    background-color: #252525;
+    color: #eee;
+    width: 120px;
+}
+
+.copyright a:hover {
+    background-color: #eee !important;
+    color: #000 !important;
+    border-color: #000;
+}
+
+
+@media (max-width: 690px) {
+    .main-header h1 {
+        font-size: 3em;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .pf-item {
+        padding-top: 80px;
+        border-bottom: 1px solid #e0e0e0
+    }
+
+    .pf-item .img-responsive {
+        padding-bottom: 20px;
+    }
+
+    .bg-map {
+        min-height: 360px;
+    }
+
+    .social-links ul li {
+        padding-right: 15px;
+        margin-right: 15px;
+    }
+    .social-links ul li:last-child {
+       padding-right: 15px;
+    }
+
+}
